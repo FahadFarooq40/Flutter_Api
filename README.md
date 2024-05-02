@@ -1,7 +1,11 @@
 # covid_19
 
-A new Flutter project.
-
+We create a StatefulWidget called CovidDescriptionPage.
+In the state class _CovidDescriptionPageState, we define a method fetchCovidDescription() to make an HTTP GET request to the COVID-19 API.
+In the initState() method, we call fetchCovidDescription() to fetch the COVID-19 description when the widget is initialized.
+In the build() method, we display the fetched description in the UI using a Text widget.
+We handle loading state with a CircularProgressIndicator until the data is fetched.
+In the main() function, we run the app with CovidDescriptionPage as the home page.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
