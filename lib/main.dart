@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: const Color(0xff001b25),
       ),
-      title: 'Covid App',
+      title: 'Covid Application',
       home: const MyHomePage(),
     );
   }
